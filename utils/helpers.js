@@ -1,1 +1,0 @@
-export function clamp(value,min,max){return Math.max(min,Math.min(max,value));}export function asNumber(value,fallback=0){const number=Number(value);return Number.isFinite(number)?number:fallback;}export function escapeHTML(value=""){return String(value).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");}

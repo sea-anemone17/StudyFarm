@@ -1,1 +1,0 @@
-export function todayISO(){return new Date().toISOString().slice(0,10);}export function addDaysISO(baseISO,days){const date=baseISO?new Date(`${baseISO}T00:00:00`):new Date();date.setDate(date.getDate()+days);return date.toISOString().slice(0,10);}export function formatDate(iso){return iso?iso.replaceAll("-","."):"";}export function nowISO(){return new Date().toISOString();}
