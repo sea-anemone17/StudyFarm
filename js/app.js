@@ -1,1 +1,1 @@
-
+import {loadState,saveState} from "./storage.js";import {renderApp} from "./render/renderApp.js";import {bindEvents} from "./events/index.js";import {updateAllFields} from "./systems/fieldSystem.js";let state=loadState();function getState(){return state;}function setState(nextState){state=nextState;updateAllFields(state);saveState(state);}function render(){renderApp(state);}bindEvents({getState,setState,render});render();setInterval(()=>{if(state.timer?.isRunning)render();},1000);
