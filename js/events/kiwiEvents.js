@@ -1,0 +1,1 @@
+import {bokbokKiwi} from "../systems/kiwiSystem.js";export function bindKiwiEvents({getState,setState,render}){document.addEventListener("click",event=>{if(!event.target.closest("#bokbokBtn"))return;const state=getState();bokbokKiwi(state);setState(state);render();});}

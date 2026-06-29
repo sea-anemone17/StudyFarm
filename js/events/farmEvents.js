@@ -1,0 +1,1 @@
+import {harvestField} from "../systems/fieldSystem.js";export function bindFarmEvents({getState,setState,render}){document.addEventListener("click",event=>{const harvestBtn=event.target.closest(".harvest-field");if(!harvestBtn)return;const state=getState();harvestField(state,harvestBtn.dataset.fieldId);setState(state);render();});}
