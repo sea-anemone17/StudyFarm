@@ -1,0 +1,1 @@
+export const SUBJECT_TYPES=[{id:"math",name:"수학"},{id:"english",name:"영어"},{id:"korean",name:"국어"},{id:"social",name:"사회/법/지리"},{id:"science",name:"과학"},{id:"info",name:"정보/코딩"},{id:"etc",name:"기타"}];

@@ -1,1 +1,1 @@
-
+export const CROPS={wheat:{id:"wheat",name:"밀",icon:"🌾",growthLabel:"등차 성장"},potato:{id:"potato",name:"감자",icon:"🥔",growthLabel:"묵직한 성장"},tomato:{id:"tomato",name:"토마토",icon:"🍅",growthLabel:"계절형 성장"},flower:{id:"flower",name:"꽃",icon:"🌸",growthLabel:"회고형 성장"}};
